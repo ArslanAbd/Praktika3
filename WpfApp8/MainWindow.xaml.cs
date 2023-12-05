@@ -29,10 +29,8 @@ namespace WpfApp8
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
-            int b  = Convert.ToInt32(TbNumberA.Text);
-            int l = 100 * b;
-            TextBlockAnswer.Text = $"Ответ: l = {l}";
-        }
+           
+                }
 
         private void BtnCancel_Click(object sender, RoutedEventArgs e)
         {
@@ -41,7 +39,12 @@ namespace WpfApp8
 
         private void TbNumberA_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            int a = int.Parse(TbNumberA.Text);
+            int a1 = a / 100;
+            int a2 = a / 10 % 10;
+            int a3 = a % 10;
+            int an = a3 * 100 + a1 * 10 + a2 * 1;
+            TextBlockAnswer.Text = $"{an}";
         }
     }
     }
