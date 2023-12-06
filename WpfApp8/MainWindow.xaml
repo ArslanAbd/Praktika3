@@ -19,13 +19,13 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
-            <TextBlock Text="задание 2"
+            <TextBlock Text="задание 1"
                        Grid.Row="0"
                        Grid.Column="0"
                        Grid.ColumnSpan="2"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center"/>
-            <TextBlock Text="3зн число"
+            <TextBlock Text="число"
                        Grid.Row="1"
                        Grid.Column="0"
                        Grid.ColumnSpan="2"
