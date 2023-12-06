@@ -27,13 +27,19 @@ namespace WpfApp8
             InitializeComponent();
         } 
 
-        private void BtnOK_Click(object sender, RoutedEventArgs e)
+        private void BtnOK_Click(object sender,RoutedEventArgs e)
         {
-            int b  = Convert.ToInt32(TbNumberA.Text);
-            int l = 100 * b;
-            TextBlockAnswer.Text = $"Ответ: l = {l}";
+          
+           
+            int b = Convert.ToInt32(TbNumberA.Text);
+            if (b % 10 == 7)
+               TextBlockAnswer.Text=("chislo b zakanchivaetsya cifrom 7");
+            else
+                TextBlockAnswer.Text=("chislo b ne zakanchivaetsya cifrom 7");
+
         }
 
+       
         private void BtnCancel_Click(object sender, RoutedEventArgs e)
         {
             Close();
@@ -41,7 +47,8 @@ namespace WpfApp8
 
         private void TbNumberA_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+           
+            
         }
     }
     }

@@ -25,7 +25,7 @@
                        Grid.ColumnSpan="2"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center"/>
-            <TextBlock Text="L sm"
+            <TextBlock Text="число"
                        Grid.Row="1"
                        Grid.Column="0"
                        Grid.ColumnSpan="2"
@@ -52,7 +52,7 @@
                      Grid.Column="1"
                      VerticalContentAlignment="Center"
                      Padding="10 0"
-                     BorderThickness="1" Text="&#xD;&#xA;"/>
+                     BorderThickness="1" Text="&#xA;"/>
             <StackPanel Grid.Row="4"
                         Grid.Column="0"
                         Grid.ColumnSpan="2"
